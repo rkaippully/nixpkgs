@@ -18505,7 +18505,7 @@ with pkgs;
   ytt = callPackage ../development/tools/ytt {};
 
   zls = callPackage ../development/tools/zls {
-    zig = zig_0_9;
+    zig = zig_0_10;
   };
 
   zydis = callPackage ../development/libraries/zydis { };
