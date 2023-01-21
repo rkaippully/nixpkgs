@@ -23503,7 +23503,7 @@ with pkgs;
     llvmPackages = llvmPackages_13;
   };
   # requires a newer Apple SDK
-  zig_0_10 = darwin.apple_sdk_11_0.callPackage ../development/compilers/zig/0.10.0.nix {
+  zig_0_10 = darwin.apple_sdk_11_0.callPackage ../development/compilers/zig/0.10.1.nix {
     llvmPackages = llvmPackages_15;
   };
   # Zig 0.10.0 is broken on Darwin, so use 0.9.1 on Darwin instead.
